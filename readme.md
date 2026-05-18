@@ -69,4 +69,4 @@ Este projeto foi desenvolvido para prática de front-end moderno e construção 
 Desenvolvido por Osvair Faria.
 
 
-![Preview do Projeto](img-projeto.png)
+![Preview do Projeto](img/img-projeto.png)
