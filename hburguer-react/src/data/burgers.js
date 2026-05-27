@@ -1,0 +1,32 @@
+const burgers = [
+
+  {
+    id: 1,
+    nome: 'Classic Burger',
+      categoria: 'tradicional',
+    descricao: 'Hambúrguer artesanal com cheddar e bacon.',
+    preco: 'R$ 32,90',
+    imagem: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop'
+  },
+
+  {
+    id: 2,
+    nome: 'Double HBurguer',
+    categoria: 'smash',
+    descricao: 'Dois smash burgers com molho especial.',
+    preco: 'R$ 39,90',
+    imagem: 'https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1200&auto=format&fit=crop'
+  },
+
+  {
+    id: 3,
+    nome: 'Monster Bacon',
+    categoria: 'bacon',
+    descricao: 'Burger gigante com muito bacon crocante.',
+    preco: 'R$ 45,90',
+    imagem: 'https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=1200&auto=format&fit=crop'
+  }
+
+]
+
+export default burgers

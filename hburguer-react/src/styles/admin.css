@@ -1,0 +1,126 @@
+.admin-page{
+
+  min-height: 100vh;
+
+  padding: 140px 8%;
+
+}
+
+.admin-page h1{
+
+  margin-bottom: 40px;
+
+}
+
+.admin-form{
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  max-width: 500px;
+
+}
+
+.admin-form input,
+.admin-form textarea{
+
+  padding: 16px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  background-color: var(--card-color);
+
+  color: var(--text-color);
+
+}
+
+.admin-form textarea{
+
+  min-height: 120px;
+
+  resize: none;
+
+}
+
+.admin-form button{
+
+  padding: 16px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background-color: #ffb703;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+}
+
+
+
+.admin-list{
+
+  margin-top: 50px;
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(auto-fit, minmax(280px,1fr));
+
+  gap: 20px;
+
+}
+
+.admin-card{
+
+  background-color: var(--card-color);
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+}
+
+.admin-card h2{
+
+  margin-bottom: 10px;
+
+}
+
+.admin-card p{
+
+  margin-bottom: 15px;
+
+  color: #999;
+
+}
+
+
+.admin-card button{
+
+  margin-top: 20px;
+
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background-color: crimson;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+}
+
+
